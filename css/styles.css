@@ -78,9 +78,9 @@ p{
 .title-image {
   height: 507;
   width:807;
-  padding-left:0px;
+  width: 100%;
   position: absolute;
-  right: 150px;
+  right: 40%;
 }
 .row{
   padding-top: 100px;
@@ -91,11 +91,15 @@ p{
 @media (max-width: 1028px) {
 
   #title {
-    text-align: center;
+    text-align:center;
   }
 
   .title-image {
-    position: static;
+    position:static;
+    padding-top: 20px;
     transform: rotate(0);
+  }
+  .btn{
+    position: static;
   }
 }
